@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 =======
 ## Weeks 1 & 2: Basic Programming
 
