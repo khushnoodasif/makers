@@ -1,4 +1,4 @@
-=======
+
 ## Weeks 1 & 2: Basic Programming
 
 During these first two modules, you will learn to use the essential tools of software development, the basic syntax of Ruby and you'll build procedural programs.
@@ -54,4 +54,3 @@ All the challenges for this module are on Teachable.
     * [Mastery Quizzes, Chapter 8](https://mastery-curriculum.makers.tech/chapter8/)
     * [Free code camp (1 hr 12 - 1hr 30)](https://www.youtube.com/watch?v=t_ispmWmdjY&t=4338)
     * [Codecademy (arrays and hashes)](https://www.codecademy.com/courses/learn-ruby/lessons/ruby-data-structures/exercises/creating-arrays)
->>>>>>> ce1e5a73ad27ca44988d3c94037790ff438242d5
