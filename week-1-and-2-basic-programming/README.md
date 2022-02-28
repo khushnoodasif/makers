@@ -1,9 +1,9 @@
 
 ## Weeks 1 & 2: Basic Programming
 
-During these first two modules, you will learn to use the essential tools of software development, the basic syntax of Ruby and you'll build procedural programs.
+During these first two modules, I will learn to use the essential tools of software development, the basic syntax of Ruby and you'll build procedural programs.
 
-By the end of modules 1 & 2 all developers can:
+By the end of modules 1 & 2 I can:
 
 * Navigate a unix command line
 * Version control projects
@@ -54,3 +54,11 @@ All the challenges for this module are on Teachable.
     * [Mastery Quizzes, Chapter 8](https://mastery-curriculum.makers.tech/chapter8/)
     * [Free code camp (1 hr 12 - 1hr 30)](https://www.youtube.com/watch?v=t_ispmWmdjY&t=4338)
     * [Codecademy (arrays and hashes)](https://www.codecademy.com/courses/learn-ruby/lessons/ruby-data-structures/exercises/creating-arrays)
+
+
+### Week 1: Overview
+This first week has been quite productive and I have managed to complete all the tasks listed above, including module 1 and 2. By splitting up the mastery quizzes over multiple days, I completed them efficiently. Other learners frequently helped me with problems I encountered on a daily basis, which led to me achieving my daily tasks.
+
+### Week 2: Overview
+
+
