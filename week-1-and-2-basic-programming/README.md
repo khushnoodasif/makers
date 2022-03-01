@@ -61,4 +61,6 @@ This first week has been quite productive and I have managed to complete all the
 
 ### Week 2: Overview
 
+Start of the week was able to complete TDD and Pair Programming over [FizzBuzz](https://github.com/stephaniesomade/fizzbuzz) and managed to work through student directory challenge.
+
 
