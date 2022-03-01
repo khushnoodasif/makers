@@ -1,3 +1,5 @@
+puts "Say Something!"
+
 input = ""
 while input.upcase != "STOP"
     input = gets.chomp
