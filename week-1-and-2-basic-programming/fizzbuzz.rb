@@ -1,11 +1,11 @@
-input = gets.chomp.to_i
+input_number = gets.chomp.to_i
 
-if input % 3 == 0 && input % 5 == 0
+if input_number % 3 == 0 && input_number % 5 == 0
    puts "FizzBuzz"
-elsif input % 3 == 0
+elsif input_number % 3 == 0
    puts "Fizz"
-elsif input % 5 == 0
+elsif input_number % 5 == 0
    puts "Buzz"
 else
-   puts input
+   puts input_number
 end
