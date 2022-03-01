@@ -13,7 +13,7 @@ while input.downcase != "exit"
         if num_of_customers >= 0
             puts "Total Customers: #{num_of_customers}."
         else
-            puts "ERROR: Customer number cannot be negative."
+            puts "ERROR: Cannot have negative number."
             num_of_customers = 0
         end
     elsif input.downcase == "exit"
