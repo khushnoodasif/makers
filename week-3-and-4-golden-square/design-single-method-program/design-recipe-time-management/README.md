@@ -23,9 +23,17 @@ _Make a list of examples of what the method will take and return._
 
 ```ruby
 # EXAMPLES
-reading_time = calculate_reading_time(text: "This is a test")
-reading_time == 1
+# 1
+calculate_reading_time(text: "This is a test")
+# => 0.05 mins
 
+# 2
+calculate_reading_time("")
+# => 0
+
+# 3
+calculate_reading_time(_200_words)
+# => 1 min
 ```
 
 _Encode each example as a test. You can add to the above list as you go._
