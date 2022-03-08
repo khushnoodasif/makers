@@ -1,27 +1,6 @@
-## Week 3 & 4: Test-Driven Development
+## Week 3 & 4: Golden Square Challenges
 
-### This module's main goals
-
-By the end of the module all developers can:
-
-* Gather evidence and use reflection to choose goals and track their progress
-* Test-drive a simple program using objects and methods
-* Pair using the driver-navigator style
-* Follow an effective debugging process
-* Complete golden square challenges
-
-#### The broader course goals relevant to this module are...
-
-* I test-drive my code
-* I use a methodical approach to solving problems
-* I use my own initiative
-
-# The Golden Square Challenges
-
-_Coaching this? Read the coach guidance
-[here.](https://github.com/makersacademy/slug/blob/main/materials/universe/golden_square/HOW_TO_COACH.x.md)_
-
-In this module your objectives are:
+### This module's main objectives are:
 
 * Learn to test-drive programs with multiple classes.
 * Learn to break programs up into classes.
@@ -52,16 +31,16 @@ challenges.
 
 A series of exercises designed to help you learn how to write tests with RSpec.
 
-1. [Testing Methods With Equality](bites/01_testing_methods_with_equality_bite.md)
-2. [Testing Classes With Equality](bites/02_testing_classes_with_equality_bite.md)
-3. [Testing For Errors](bites/03_testing_for_errors_bite.md)
+1. [Testing Methods With Equality](testing-methods-with-equality)
+2. [Testing Classes With Equality](testing-classes-with-equality)
+3. [Testing For Errors](testing-for-errors)
 
 ### Phase Two: Challenges
 
 A series of challenges designed to help you learn a strong test-driving,
 object-oriented design, and debugging practices.
 
-1. [Create Your Project](challenges/01_create_your_project.md)
+1. [Create Your Project]()
 2. [Test Drive a Single-Method Program](challenges/02_test_drive_a_single_method.md)
 3. [Design a Single-Method Program](challenges/03_design_a_single_method.md)
 4. [Intermezzo: Debugging 1](challenges/04_intermezzo_debugging_1.md)
