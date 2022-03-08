@@ -1,4 +1,4 @@
-# {{PROBLEM}} Method Design Recipe
+# Improve Grammar Method Design Recipe
 
 ## 1. Describe the Problem
 

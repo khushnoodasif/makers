@@ -1,4 +1,4 @@
-# {{Time Management}} Method Design Recipe
+# Time Management Method Design Recipe
 
 ## 1. Describe the Problem
 
