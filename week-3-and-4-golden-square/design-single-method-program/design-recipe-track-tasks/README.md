@@ -1,4 +1,4 @@
-# {{PROBLEM}} Method Design Recipe
+# Track Tasks Method Design Recipe
 
 ## 1. Describe the Problem
 
