@@ -1,8 +1,7 @@
 ## Contents
 
 - [Weeks 1 & 2: Basic Programming](https://github.com/khushnoodasif/makers/tree/main/week-1-and-2-basic-programming)
-- [Week 3: Test-Driven Development](https://github.com/khushnoodasif/makers/tree/main/week-3-test-driven-development)
-- [Week 4: Object-Oriented Design](https://github.com/khushnoodasif/makers/tree/main/week-4-object-oriented-design)
+- [Week 3 & 4: Golden Square](https://github.com/khushnoodasif/makers/tree/main/week-3-and-4-golden-square)
 - [Week 5: The Web](https://github.com/khushnoodasif/makers/tree/main/week-5-the-web)
 - [Week 6: Databases](https://github.com/khushnoodasif/makers/tree/main/week-6-databases)
 - [Week 7: MakersBnB](https://github.com/khushnoodasif/makers/tree/main/week-7-makersbnb)
