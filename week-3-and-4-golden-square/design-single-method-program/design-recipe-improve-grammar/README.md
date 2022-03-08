@@ -24,7 +24,7 @@ end
 _Make a list of examples of what the method will take and return._
 
 ```ruby
-# EXAMPLE
+# EXAMPLES
 #1
 improve_grammar("Hello, world!") 
 # => true
