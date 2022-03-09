@@ -8,6 +8,10 @@ class Gratitudes
   end
 
   def format
+    return formatted_gratitudes = @gratitudes.join(", ")
+  end
+
+  def format_with_prefix
     prefix = "Be grateful for: "
     formatted_gratitudes = @gratitudes.join(", ")
     return prefix + formatted_gratitudes
