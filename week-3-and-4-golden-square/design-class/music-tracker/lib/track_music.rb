@@ -1,32 +1,23 @@
-class TodoList
+class MusicTracker
 
   def initialize(name) 
     @name = name
-    @todo = []
+    @tracks = []
   end
 
-  def add(task) 
-    if task != ""
-      @todo << task
+  def add(track) 
+    if track != ""
+      @tracks << track
     else
-      return "Please enter a task."
+      return "Please enter a track."
     end
   end
 
-  def see_task_list()
-    if @todo.empty?
-      return "#{@name}: No tasks to do!"
+  def see_track_list()
+    if @tracks.empty?
+      return "#{@name}: No tracks found!"
     else
-      return "#{@name}: #{@todo.join(", ")}"
-    end
-  end
-
-  def completed_tasks(task)
-    if @todo.include?(task)
-      @todo.delete(task)
-      return "#{@name}: #{task} is completed!"
-    else
-      return "Task not found."
+      return "#{@name}: #{@tracks.join(", ")}"
     end
   end
 end

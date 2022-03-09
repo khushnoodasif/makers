@@ -3,12 +3,8 @@
 ## 1. Describe the Problem
 
 As a user
-So that I can keep track of my tasks
-I want a program that I can add todo tasks to and see a list of them.
-
-As a user
-So that I can focus on tasks to complete
-I want to mark tasks as complete and have them disappear from the list.
+So that I can keep track of my music listening
+I want to add tracks I've listened to and see a list of them.
 
 ## 2. Design the Class Interface
 
@@ -16,19 +12,15 @@ _Include the initializer and public methods with all parameters and return value
 
 ```ruby
 # EXAMPLE
-class TodoList
+class MusicTracker
   def initialize(name) # name is a string
     # ...
   end
-  def add(task) # task is a string
+  def add(track) # track is a string
     # ...
   end
-  def see_task_list(task) # task is a string
-    # No return value
-  end
-  def completed_tasks()
-    # Throws an exception if no task is set
-    # Otherwise, returns a string reminding the user to do the task
+  def see_track_list(track) # track is a string
+    # return list of music tracks
   end
 end
 ```
@@ -37,32 +29,30 @@ _Make a list of examples of how the class will behave in different situations._
 ```ruby
 # EXAMPLE
 # 1
-todo = TodoList.new("Groceries")
-todo.add("Milk")
-todo.add("Eggs")
-todo.add("Bread")
-todo.see_task_list()
-# => "Groceries: Milk, Eggs, Bread"
+new_tracks = MusicTracker.new("playlist_1")
+new_tracks.add("song_1")
+new_tracks.add("song_2")
+new_tracks.add("song_3")
+new_tracks.see_track_list()
+# => "playlist_1: song_1, song_2, song_3"
 
 # 2
-todo = TodoList.new("Kush")
-todo.add("Cannabis")
-todo.add("Cocaine")
-todo.add("Marijuana")
-todo.see_task_list()
-# => "Kush: Cannabis, Cocaine, Marijuana"
+new_tracks = MusicTracker.new("playlist_2")
+new_tracks.add("song_1")
+new_tracks.add("song_2")
+new_tracks.add("song_3")
+new_tracks.see_track_list()
+# => "playlist_2: song_1, song_2, song_3"
 
 # 3
-todo = TodoList.new("Shopping")
-todo.see_task_list()
-# => "Shopping: No tasks to do!"
+new_tracks = MusicTracker.new("playlist_3")
+new_tracks.see_track_list()
+# => "playlist_3: No tracks found!"
 
 # 4
-todo = TodoList.new("Groceries")
-todo.add("Milk")
-todo.completed_tasks("Milk")
-todo.see_task_list()
-# => "Groceries: Milk is completed!"
+new_tracks = MusicTracker.new("playlist_4")
+new_tracks.add("")
+# => "playlist_4: No tracks to add!"
 ```
 
 _Encode each example as a test. You can add to the above list as you go._
