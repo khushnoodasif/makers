@@ -14,10 +14,6 @@ challenges over two weeks.
 
 ## Sequence
 
-**Some of these materials are still under development. The :construction: emoji
-indicates where material after this may be incomplete. It will be fully complete
-within a week.**
-
 ### Phase Zero: The Golden Square Practices
 
 Review these so that you can refer back to them as you work through the
