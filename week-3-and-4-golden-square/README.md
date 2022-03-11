@@ -37,15 +37,15 @@ A series of challenges designed to help you learn a strong test-driving,
 object-oriented design, and debugging practices.
 
 1. [Create Your Project]()
-2. [Test Drive a Single-Method Program]()
-3. [Design a Single-Method Program]()
-4. [Intermezzo: Debugging 1]()
-5. [Test Drive a Class]()
-6. [Design a Class]()
-7. [Intermezzo: Debugging 2]()
-8. [Test Drive a Class System]()
-9. [Design a Class System]()
-10. [Adventure]()
+2. [Test Drive a Single-Method Program](01-test-drive-method)
+3. [Design a Single-Method Program](02-design-method)
+4. [Intermezzo: Debugging 1](03-debugging-1)
+5. [Test Drive a Class](04-test-drive-class)
+6. [Design a Class](05-design-class)
+7. [Intermezzo: Debugging 2](06-debugging-2)
+8. [Test Drive a Class System](07-test-drive-class-system)
+9. [Design a Class System](08-design-class-system)
+10. [Adventure](09-adventure)
 
 ### Phase Three: Project
 
