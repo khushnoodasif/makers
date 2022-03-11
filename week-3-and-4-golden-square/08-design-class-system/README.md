@@ -204,10 +204,21 @@ _Create examples, where appropriate, of the behaviour of each relevant class at
 a more granular level of detail._
 
 ```ruby
-# EXAMPLE
+# 1 - empty list of entries
+diary = Diary.new
+expect(diary.entries).to eq []
 
+# 2 - add tasks to list
+task_list = TaskList.new
+task = Task.new("Today I went to the park")
+task2 = Task.new("Today I went to the school")
+task_list.add(task)
+task_list.add(task2)
+expect(task_list.all).to eq [task, task2]
 
-
+# 3 - returns empty if no tasks were found
+task_list = TaskList.new
+expect(task_list.all).to eq []
 ```
 
 _Encode each example as a test. You can add to the above list as you go._
