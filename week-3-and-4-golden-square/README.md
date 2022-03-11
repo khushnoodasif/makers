@@ -57,5 +57,6 @@ you.
 
 ### Week 3: Overview
 
+Week 3 was challenging because so much new information had to be taken in. While I have been able to complete 80% of the module in the first week, my understanding is still very faint. I need to spend some time relearning and practicing TDD and OOD. Many of the challenging exercises were completed using pair programming because there were not many solutions. I was able to learn some new ways of working after having someone to work with.
 
 ### Week 4: Overview
