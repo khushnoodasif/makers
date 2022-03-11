@@ -6,15 +6,15 @@ RSpec.describe TodoList do
   expect(new_todolist.add("Another test")).to eq ["Another test"]
   end
 
-  it "if todo is empty string returns error" do
+  xit "if todo is empty string returns error" do
   new_todolist = TodoList.new
   expect(new_todolist.add("")).to eq ["Please enter your task"]
   end
 
-  # context "if no todo given" do
-  #   it "fails" do
-  #   new_todolist = TodoList.new
-  #   expect { new_todolist.add("") }.to raise_error "Please enter your task"
-  #   end
-  # end
+  xcontext "if no todo given" do
+    it "fails" do
+    new_todolist = TodoList.new
+    expect { new_todolist.add("") }.to raise_error "Please enter your task"
+    end
+  end
 end
