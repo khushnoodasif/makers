@@ -49,10 +49,9 @@ RSpec.describe "diary integration" do
     expect(reader.find_readable(2)).to eq nil
   end
 
-  xit "invalid wpm raises an error" do
+  it "invalid wpm raises an error" do
     diary = Diary.new
-    reader = DiaryReader.new(0, diary)
-    expect { reader.find_readable(2) }.to raise_error "Invalid WPM"
+    expect { DiaryReader.new(0, diary) }.to raise_error "Invalid WPM"
   end
 
   it "extracts phone numbers from diary entries" do

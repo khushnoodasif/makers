@@ -1,5 +1,6 @@
 class DiaryReader
   def initialize(wpm, diary)
+    fail "Invalid WPM" unless wpm.positive?
     @wpm = wpm
     @diary = diary
   end
