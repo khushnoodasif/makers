@@ -27,33 +27,50 @@ challenges.
 
 A series of exercises designed to help you learn how to write tests with RSpec.
 
-1. [Testing Methods With Equality](testing-methods-with-equality)
-2. [Testing Classes With Equality](testing-classes-with-equality)
-3. [Testing For Errors](testing-for-errors)
+1. [Testing Methods With Equality](phase-01-testing-bites/testing-methods-with-equality)
+2. [Testing Classes With Equality](phase-01-testing-bites/testing-classes-with-equality)
+3. [Testing For Errors](phase-01-testing-bites/testing-for-errors)
 
-### Phase Two: Challenges
+### Phase Two: Skill Challenges
 
 A series of challenges designed to help you learn a strong test-driving,
 object-oriented design, and debugging practices.
 
 1. [Create Your Project]()
-2. [Test Drive a Single-Method Program](01-test-drive-method)
-3. [Design a Single-Method Program](02-design-method)
-4. [Intermezzo: Debugging 1](03-debugging-1)
-5. [Test Drive a Class](04-test-drive-class)
-6. [Design a Class](05-design-class)
-7. [Intermezzo: Debugging 2](06-debugging-2)
-8. [Test Drive a Class System](07-test-drive-class-system)
-9. [Design a Class System](08-design-class-system)
-10. [Adventure](09-adventure)
+2. [Test Drive a Single-Method Program](phase-02-skill-challenges/01-test-drive-method)
+3. [Design a Single-Method Program](phase-02-skill-challenges/02-design-method)
+4. [Intermezzo: Debugging 1](phase-02-skill-challenges/03-debugging-1)
+5. [Test Drive a Class](phase-02-skill-challenges/04-test-drive-class)
+6. [Design a Class](phase-02-skill-challenges/05-design-class)
+7. [Intermezzo: Debugging 2](phase-02-skill-challenges/06-debugging-2)
+8. [Test Drive a Class System](phase-02-skill-challenges/07-test-drive-class-system)
+9. [Design a Class System](phase-02-skill-challenges/08-design-class-system)
 
-### Phase Three: Project
+### Phase Three: Mocking Bites
 
-[Takeaway](takeaway-project/README.md)
+Work through this series of exercises designed to help you learn how to isolate
+tests using RSpec.
 
-If you finish this, send your coach a message. Share with them anything you
-would like to work on or a skill you would like to train and they will guide
-you.
+1. [Unit Testing Parent-Child Classes](phase-03-mocking-bites/01-unit-testing-parent-child-classes)
+2. [Crafting Doubles](phase-03-mocking-bites/02-crafting-doubles)
+3. [Unit Testing Peer Classes](phase-03-mocking-bites/03-unit-testing-peer-classes)
+4. [Unit Testing API Requests](phase-03-mocking-bites/04-unit-testing-API-requests)
+5. [Unit Testing Terminal IO](phase-03-mocking-bites/05-unit-testing-terminal-IO)
+
+### Phase Four: Solo Project
+
+Do this project solo. It is designed to help you test all of your skills.
+
+[Takeaway Project](phase-04-solo-project/takeaway)
+
+<!-- OMITTED -->
+
+### Phase Five: Challenge Project
+
+Optionally, do this extra tricky challenge project designed for engineers who
+reach the end of the sequence and want to really test their skills.
+
+[Battleships Challenge](phase-05-challenge-project/battleships)
 
 ### Week 3: Overview
 
