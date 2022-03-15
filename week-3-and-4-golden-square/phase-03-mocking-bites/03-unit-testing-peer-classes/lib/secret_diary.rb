@@ -5,21 +5,15 @@ class SecretDiary
   end
 
   def read
-    fail "Go away!" unless @locked == false
+    fail "Go away!" if @locked
     @diary.read
-
-  
-    # Raises the error "Go away!" if the diary is locked
-    # Returns the diary's contents if the diary is unlocked
-    # The diary starts off locked
   end
 
   def lock
-    # Locks the diary
-    # Returns nothing
+    @locked = true
   end
 
   def unlock
-    @locked == false
+    @locked = false
   end
 end
