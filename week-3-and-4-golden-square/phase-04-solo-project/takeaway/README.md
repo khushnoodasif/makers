@@ -88,7 +88,6 @@ class Interface
 
   def new_order # returns a new order.
   end
-  end
 
   def number_request # returns a string and ask user to enter phone number.
   end
