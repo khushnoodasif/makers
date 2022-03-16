@@ -9,9 +9,6 @@
 * Learn to explain why test-driving, object-oriented design, debugging, and
   pairing are powerful practices for software engineers.
 
-You will achieve these by working through a sequence of exercises and
-challenges over two weeks.
-
 ## Sequence
 
 ### Phase Zero: The Golden Square Practices
@@ -25,7 +22,7 @@ challenges.
 
 ### Phase One: Testing Bites
 
-A series of exercises designed to help you learn how to write tests with RSpec.
+A series of exercises designed to help learn how to write tests with RSpec.
 
 1. [Testing Methods With Equality](phase-01-testing-bites/testing-methods-with-equality)
 2. [Testing Classes With Equality](phase-01-testing-bites/testing-classes-with-equality)
@@ -33,7 +30,7 @@ A series of exercises designed to help you learn how to write tests with RSpec.
 
 ### Phase Two: Skill Challenges
 
-A series of challenges designed to help you learn a strong test-driving,
+A series of challenges designed to help learn a strong test-driving,
 object-oriented design, and debugging practices.
 
 1. [Create Your Project]()
@@ -48,7 +45,7 @@ object-oriented design, and debugging practices.
 
 ### Phase Three: Mocking Bites
 
-Work through this series of exercises designed to help you learn how to isolate
+Series of exercises designed to help learn how to isolate
 tests using RSpec.
 
 1. [Unit Testing Parent-Child Classes](phase-03-mocking-bites/01-unit-testing-parent-child-classes)
@@ -59,15 +56,13 @@ tests using RSpec.
 
 ### Phase Four: Solo Project
 
-Do this project solo. It is designed to help you test all of your skills.
+Solo project designed to test all the skills.
 
 [Takeaway Project](phase-04-solo-project/takeaway)
 
-<!-- OMITTED -->
-
 ### Phase Five: Challenge Project
 
-Optionally, do this extra tricky challenge project designed for engineers who
+Extra tricky challenge project designed for engineers who
 reach the end of the sequence and want to really test their skills.
 
 [Battleships Challenge](phase-05-challenge-project/battleships)
