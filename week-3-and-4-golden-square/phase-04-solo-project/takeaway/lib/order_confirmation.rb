@@ -4,6 +4,6 @@ class OrderConfirmation
   end
 
   def send_text(number)
-    puts "Sending text to #{number}"
+    puts "#{number}: Thank you! Your order was placed and will be delivered before 18:52"
   end
 end
