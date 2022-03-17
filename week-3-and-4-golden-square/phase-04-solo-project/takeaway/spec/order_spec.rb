@@ -2,12 +2,12 @@ require 'order'
 
 RSpec.describe Order do
   it "returns empty list if not dishes found" do
-    menu = Menu.new
+    menu = double :menu
     order = Order.new(menu)
     expect(order.list).to eq([])
   end
-  
-  xit "returns order list" do
+
+  it "returns order list" do
     Pizza = Dish.new("Pizza", 10)
     Pasta = Dish.new("Pasta", 8)
     Sourry_Soup = Dish.new("Sourry Soup", 5)
@@ -17,6 +17,6 @@ RSpec.describe Order do
     menu.add(Pasta)
     menu.add(Sourry_Soup)
     menu.add(Salad)
-    expect(menu.list).to eq(["Pizza : 10", "Pasta : 8", "Sourry Soup : 5", "Salad : 6"])]) 
+    expect(menu.list).to eq(["Pizza : 10", "Pasta : 8", "Sourry Soup : 5", "Salad : 6"])
   end
 end
