@@ -1,19 +1,20 @@
 class Menu
-  def initialize(dish)
-    @dish = dish
+  def initialize
+   @menu = []
   end
 
   def add(dish)
-    @dish << dish
+    @menu << dish
   end
 
   def remove(dish)
-    @dish.delete(dish)
+    if @menu.include?(dish)
+      @menu.delete(dish)
+    else fail "Error: Dish not found"
+    end
   end
 
   def list
-    @dish.each do |dish|
-      puts dish
-    end
+    @menu
   end
 end
