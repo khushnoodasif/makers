@@ -209,6 +209,7 @@ expect(receipt.itemised).to eq(
 # So that I am reassured that my order will be delivered on time
 # I would like to receive a text such as "Thank you! Your order was placed and will be delivered before 18:52" after I have ordered.
 
+# 6 - send user order confirmation text
 Pizza = Dish.new("Pizza", 10)
 Pasta = Dish.new("Pasta", 8)
 Sourry_Soup = Dish.new("Sourry Soup", 5)
