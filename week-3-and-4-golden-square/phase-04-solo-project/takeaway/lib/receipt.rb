@@ -3,16 +3,22 @@ class Receipt
     @order = order
   end
 
-  def total
-    @order.inject(0) { |sum, item| sum + item.price }
+  def total 
+    if @order.list.empty?
+      fail "Error: Order not found"
+    else @order.list.inject(0) { |sum, dish| sum + dish.price }
+    end
   end
 
   def itemised
-    puts "***<Receipt>***"
-    @order.each do |item|
-      puts "#{item.name} #{item.price}"
+    if @order.list.empty?
+      fail "Error: Order not found"
+    else 
+      itemised = "***<Receipt>***\n"
+      @order.list.each do |dish|
+        itemised += "#{dish.name} - £%.2f\n" % [dish.price]
+      end
+      itemised += "Total: £%.2f\n" % [total] + "***</Receipt>***"
     end
-    puts "Total: #{total}"
-    puts "***</Receipt>***"
   end
 end

@@ -8,15 +8,85 @@ RSpec.describe Order do
   end
 
   it "returns order list" do
-    Pizza = Dish.new("Pizza", 10)
-    Pasta = Dish.new("Pasta", 8)
-    Sourry_Soup = Dish.new("Sourry Soup", 5)
-    Salad = Dish.new("Salad", 6)
-    menu = Menu.new
-    menu.add(Pizza)
-    menu.add(Pasta)
-    menu.add(Sourry_Soup)
-    menu.add(Salad)
-    expect(menu.list).to eq(["Pizza : 10", "Pasta : 8", "Sourry Soup : 5", "Salad : 6"])
+    dish = double :dish
+    dish1 = double :dish1
+    dish2 = double :dish2
+    dish3 = double :dish3
+    menu = double :menu
+    order = Order.new(menu)
+    allow(order).to receive(:list).and_return([dish, dish1, dish2, dish3])
+    expect(order.list).to eq([dish, dish1, dish2, dish3])
+  end
+
+  it "adds a dish to order list" do
+    dish = double :dish, name: "dish", price: 10
+    menu = double :menu
+    order = Order.new(menu)
+    order.select(dish)
+    expect(order.list).to eq([dish])
+  end
+
+  it "adds a dish to order list" do
+    dish = double :dish, name: "dish", price: 10
+    menu = double :menu
+    order = Order.new(menu)
+    order.select(dish)
+    expect(order.list).to eq([dish])
+  end
+
+  it "adds multiple dishes to order list" do
+    dish = double :dish
+    dish1 = double :dish1
+    dish2 = double :dish2
+    dish3 = double :dish3
+    menu = double :menu
+    order = Order.new(menu)
+    order.select(dish)
+    order.select(dish1)
+    order.select(dish2)
+    order.select(dish3)
+    expect(order.list).to eq([dish, dish1, dish2, dish3])
+  end
+
+  it "removes a dish from order list" do
+    dish = double :dish
+    dish1 = double :dish1
+    dish2 = double :dish2
+    dish3 = double :dish3
+    menu = double :menu
+    order = Order.new(menu)
+    order.select(dish)
+    order.select(dish1)
+    order.select(dish2)
+    order.select(dish3)
+    order.remove(dish3)
+    expect(order.list).to eq([dish, dish1, dish2])
+  end
+
+  it "removes multiple dishes from order list" do
+    dish = double :dish
+    dish1 = double :dish1
+    dish2 = double :dish2
+    dish3 = double :dish3
+    menu = double :menu
+    order = Order.new(menu)
+    order.select(dish)
+    order.select(dish1)
+    order.select(dish2)
+    order.select(dish3)
+    order.remove(dish2)
+    order.remove(dish3)
+    expect(order.list).to eq([dish, dish1])
+  end
+
+  it "if not previously added dish, returns an error" do
+    dish = double :dish
+    dish2 = double :dish2
+    dish3 = double :dish3
+    menu = double :menu
+    order = Order.new(menu)
+    order.select(dish)
+    order.select(dish2)
+    expect { order.remove(dish3) }.to raise_error("Error: Dish not found")
   end
 end

@@ -9,8 +9,8 @@ class Order
   end
 
   def remove(dish)
-    if @menu.include?(dish)
-      @menu.delete(dish)
+    if @order.include?(dish)
+      @order.delete(dish)
     else fail "Error: Dish not found"
     end
   end

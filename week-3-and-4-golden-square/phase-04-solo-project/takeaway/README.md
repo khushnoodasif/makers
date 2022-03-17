@@ -197,11 +197,13 @@ order.select(Sourry_Soup)
 order.remove(Salad)
 receipt = Receipt.new(order)
 expect(receipt.itemised).to eq(
-  "Pizza : £10
-  Pasta : £8
-  Sourry Soup : £5
-  Salad : £6
-  Your total is: £23"
+  "***<Receipt>***
+  Pizza: £10
+  Pasta: £8
+  Sourry Soup: £5
+  Salad: £6
+  Your total is: £23
+  ***</Receipt>***"
   )
 ----------------------------------------------------------------
 
