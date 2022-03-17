@@ -75,10 +75,10 @@ class Receipt
 end
 
 class OrderConfirmation
-  def initialize(number) # number is a string
+  def initialize(receipt) # number is a string
   end
 
-  def send_text # sends a text to the customer.
+  def send_text(number) # sends a text to the customer.
   end
 end
 
@@ -225,7 +225,7 @@ order.select(Sourry_Soup)
 order.remove(Salad)
 receipt = Receipt.new(order)
 confirmation = OrderConfirmation.new(receipt.itemised)
-expect(confirmation.send_text).to eq("Thank you! Your order was placed and will be delivered before 18:52")
+expect(confirmation.send_text(number)).to eq("Thank you! Your order was placed and will be delivered before 18:52")
 ```
 
 ## 4. Create Examples as Unit Tests
