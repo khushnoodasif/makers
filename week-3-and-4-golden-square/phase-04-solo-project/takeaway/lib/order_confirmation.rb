@@ -1,5 +1,5 @@
-require 'rubygems'
-require 'twilio-ruby'
+# require 'rubygems'
+# require 'twilio-ruby'
 
 class OrderConfirmation
   def initialize(requester)

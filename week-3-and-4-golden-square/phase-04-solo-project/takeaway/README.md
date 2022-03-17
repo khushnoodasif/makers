@@ -125,7 +125,7 @@ menu.add(Pizza)
 menu.add(Pasta)
 menu.add(Sourry_Soup)
 menu.add(Salad)
-expect(menu.list).to eq(["Pizza : 10", "Pasta : 8", "Sourry Soup : 5", "Salad : 6"])]) 
+expect(menu.list).to eq(["Pizza : 10", "Pasta : 8", "Sourry Soup : 5", "Salad : 6"])
 
 # 2 - remove a dish from menu list
 Pizza = Dish.new("Pizza", 10)
@@ -194,15 +194,15 @@ order = Order.new(menu)
 order.select(Pizza)
 order.select(Pasta)
 order.select(Sourry_Soup)
-order.remove(Salad)
+order.select(Salad)
+order.remove(Pizza)
 receipt = Receipt.new(order)
 expect(receipt.itemised).to eq(
   "***<Receipt>***
-  Pizza: £10
   Pasta: £8
   Sourry Soup: £5
   Salad: £6
-  Your total is: £23
+  Total: £19
   ***</Receipt>***"
   )
 ----------------------------------------------------------------
@@ -225,7 +225,8 @@ order = Order.new(menu)
 order.select(Pizza)
 order.select(Pasta)
 order.select(Sourry_Soup)
-order.remove(Salad)
+order.select(Salad)
+order.remove(Pizza)
 receipt = Receipt.new(order)
 confirmation = OrderConfirmation.new(receipt.itemised)
 expect(confirmation.send_text(number)).to eq("Thank you! Your order was placed and will be delivered before 18:52")
