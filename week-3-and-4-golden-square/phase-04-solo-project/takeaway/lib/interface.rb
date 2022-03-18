@@ -75,7 +75,7 @@ end
 # menu.add(Pasta)
 # menu.add(Sourry_Soup)
 # menu.add(Salad)
-# interface= Interface.new(menu)
+# interface = Interface.new(menu)
 # interface.menu
 # interface.new_order
 # interface.print_receipt
