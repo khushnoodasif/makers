@@ -98,15 +98,15 @@ class Interface
   end
 end
 
-Pizza = Dish.new("Pizza", 10)
-Pasta = Dish.new("Pasta", 8)
-Sourry_Soup = Dish.new("Sourry Soup", 5)
-Salad = Dish.new("Salad", 6)
-menu = Menu.new
-menu.add(Pizza)
-menu.add(Pasta)
-menu.add(Sourry_Soup)
-menu.add(Salad)
-interface = Interface.new(menu)
-interface.menu
-interface.menu_interface
+# Pizza = Dish.new("Pizza", 10)
+# Pasta = Dish.new("Pasta", 8)
+# Sourry_Soup = Dish.new("Sourry Soup", 5)
+# Salad = Dish.new("Salad", 6)
+# menu = Menu.new
+# menu.add(Pizza)
+# menu.add(Pasta)
+# menu.add(Sourry_Soup)
+# menu.add(Salad)
+# interface = Interface.new(menu)
+# interface.menu
+# interface.menu_interface

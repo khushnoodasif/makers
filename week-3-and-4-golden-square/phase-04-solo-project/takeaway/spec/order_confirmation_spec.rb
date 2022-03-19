@@ -2,12 +2,12 @@ require 'order_confirmation'
 
 RSpec.describe OrderConfirmation do
   let(:order) { double(:order) }
-  let(:order_time) { Time.new(2022, 03, 18, 19, 30) }
-  subject(:order_confirmation) { OrderConfirmation.new(order, order_time) }
+  let(:time) { Time.new(2022, 03, 18, 19, 30) }
+  subject(:order_confirmation) { OrderConfirmation.new(order, time) }
 
   it "returns order and order time" do
     expect(order_confirmation.order).to eq(order)
-    expect(order_confirmation.order_time).to eq(order_time)
+    expect(order_confirmation.time).to eq(time)
   end
 
   it "returns time for delivery" do

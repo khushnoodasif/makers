@@ -1,13 +1,13 @@
 class OrderConfirmation
-  attr_reader :order, :order_time
+  attr_reader :order, :time
 
-  def initialize(order, order_time)
+  def initialize(order, time)
     @order = order
-    @order_time = order_time
+    @time = time
   end
 
-  def delivery_time(minutes)
-    @delivery_estimate = @order_time + minutes * 30
+  def delivery_time(mins)
+    @delivery_estimate = @time + mins * 30
   end
 
   def message

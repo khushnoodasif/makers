@@ -109,7 +109,7 @@ RSpec.describe "integration" do
     order.select(dish4)
     order.remove(dish1)
     receipt = Receipt.new(order)
-    order_confirmation = OrderConfirmation.new(receipt.itemised)
-    expect(order_confirmation.send_text).to eq("Thank you! Your order was placed and will be delivered before 18:52")
+    send_text = SendText.new(order_confirmation)
+    expect(send_text.send_text).to eq("Thank you! Your order was placed and will be delivered before 18:52")
   end
 end
