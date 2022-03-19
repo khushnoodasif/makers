@@ -1,23 +1,23 @@
 require 'order_confirmation'
 
 RSpec.describe OrderConfirmation do
-  let(:requester) { double :requester }
-  subject { described_class.new(requester) }
+  let(:order) { double(:order) }
+  let(:order_time) { Time.new(2022, 03, 18, 19, 30) }
+  subject(:order_confirmation) { OrderConfirmation.new(order, order_time) }
 
-  describe '#send_text' do
-    it 'sends a text message to the requester' do
-      allow(requester).to receive(:number_request).and_return('+441234123456')
-      allow(requester).to receive(:total).and_return(12.34)
-      allow(Time).to receive(:now).and_return(Time.new(2019, 12, 12, 12, 12))
-      allow(requester).to receive(:new).and_return(requester)
-      allow(requester).to receive(:account).and_return(requester)
-      allow(requester).to receive(:messages).and_return(requester)
-      allow(requester).to receive(:create).and_return(requester)
+  it "returns order and order time" do
+    expect(order_confirmation.order).to eq(order)
+    expect(order_confirmation.order_time).to eq(order_time)
+  end
 
-      expect(requester).to receive(:create).with(from: '+441234123456',
-                                                  to: '+441234123456',
-                                                  body: "Thank you for your order! Your total is £12.34. Your order will be delivered before 12:12.")
-      subject.send_text
-    end
+  it "returns time for delivery" do
+    expect(order_confirmation.delivery_time(40)).to eq(Time.new(2022, 03, 18, 19, 50))
+  end
+
+  it "returns a message for order placed and delivery time" do
+    order_confirmation.delivery_time(40)
+    expect(order_confirmation.message).to eq("Thank you! Your order was placed and will be delivered before 19:50")
+    order_confirmation.delivery_time(50)
+    expect(order_confirmation.message).to eq("Thank you! Your order was placed and will be delivered before 19:55")
   end
 end

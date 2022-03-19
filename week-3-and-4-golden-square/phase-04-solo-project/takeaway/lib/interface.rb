@@ -2,6 +2,8 @@ require './lib/menu'
 require './lib/dish'
 require './lib/order'
 require './lib/receipt'
+require './lib/order_confirmation'
+require './lib/send_text'
 
 class Interface
   def initialize(menu)
@@ -59,23 +61,52 @@ class Interface
   def print_receipt
     puts @receipt.itemised unless @order.list.empty?
   end
+
+  def number_request
+    puts "Please enter your phone number for delivery."
+    customer_number = gets.chomp
+  end
+  
+  def text_customer(customer_number)
+    send_text(customer_number)
+  end
+  
+  def menu_interface
+    loop do
+    puts "***<Menu Interface>***"
+    puts "Select one of the option below:\n1. Menu\n2. New Order\n3. Print Receipt\n4. Send Text\n5. Exit"
+    puts "***</Menu Interface>***"
+      menu_options(gets.chomp)
+    end
+  end
+  
+  def menu_options(input)
+    case input
+    when "1"
+      menu
+    when "2"
+      new_order
+    when "3"
+      print_receipt
+    when "4"
+      text_customer(number_request)
+    when "5"
+      exit
+    else
+      puts "Error: Invalid option"
+    end
+  end
 end
 
-def number_request
-  puts "Please enter your phone number for delivery."
-  number = gets.chomp
-end
-
-# Pizza = Dish.new("Pizza", 10)
-# Pasta = Dish.new("Pasta", 8)
-# Sourry_Soup = Dish.new("Sourry Soup", 5)
-# Salad = Dish.new("Salad", 6)
-# menu = Menu.new
-# menu.add(Pizza)
-# menu.add(Pasta)
-# menu.add(Sourry_Soup)
-# menu.add(Salad)
-# interface = Interface.new(menu)
-# interface.menu
-# interface.new_order
-# interface.print_receipt
+Pizza = Dish.new("Pizza", 10)
+Pasta = Dish.new("Pasta", 8)
+Sourry_Soup = Dish.new("Sourry Soup", 5)
+Salad = Dish.new("Salad", 6)
+menu = Menu.new
+menu.add(Pizza)
+menu.add(Pasta)
+menu.add(Sourry_Soup)
+menu.add(Salad)
+interface = Interface.new(menu)
+interface.menu
+interface.menu_interface
