@@ -72,3 +72,5 @@ reach the end of the sequence and want to really test their skills.
 Week 3 was challenging because so much new information had to be taken in. While I have been able to complete 80% of the module in the first week, my understanding is still very faint. I need to spend some time relearning and practicing TDD and OOD. Many of the challenging exercises were completed using pair programming because there were not many solutions. I was able to learn some new ways of working after having someone to work with.
 
 ### Week 4: Overview
+
+Week 4 started with mocking bite challenges. Learning these and understanding them helped a great deal with learning OOD. It gave me more confidence to take on a solo challenge after pairing and completing these challenges. I was able to use TDD and ODD to finish most of the solo project on Takeaway, but I had difficulty using Twilio API to send sms to customers if they have placed orders. It was more difficult as the mocking bites API didn't go into detail about how to set it up yourself, use doubles, etc. I will have to go back and study up on this part of the module again.
