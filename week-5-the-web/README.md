@@ -1,60 +1,52 @@
-# Intro to the web
+## Week 5: The Web
 
-## Learning objectives
+This week you'll learn how to build web applications in Ruby, using TDD.
 
-### Goals
-
-This challenge directly addresses three of the weekly goals
-
-* Explain and diagram the HTTP request/response cycle
-* Test-drive a simple Sinatra app
+### This module's main goals
+By the end of the week, all developers can:
 * Write feature tests using Capybara
-
-You will also have opportunities to address the other three
-
+* Test-drive a simple Sinatra app
 * Follow an effective process to debug web applications
+* Explain and diagram the HTTP request/response cycle
 * Explain and diagram the MVC pattern
 
-## On Thursday afternoon
-On Friday you'll be tasked with putting everything you've covered into practice in the end of module challenge. To help you get ready for that, make some time on Thursday to reflect, with your pair, on everything you've covered this week.
+Before you start, take a moment to think about how you will track your progress towards these goals. Write down your plan and share it with your peers.
 
-## Challenges
+Then, every morning, you should come back to these goals and rate your progress.
 
-* [The Web: An Introduction](theweb.md)
-* [The Hypertext Transfer Protocol (HTTP)](http.md)
-* [HTTP: Parameters](http_parameters.md)
-* [HTTP: GET / POST Requests](http_verbs.md)
-* [Checkpoint: HTTP](checkpoint_http.md)
-* [Sinatra: Getting Started](sinatra_getting_started.md)
-* [Sinatra: Defining a route](sinatra_defining_a_route.md)
-* [Sinatra: Start and Restart](sinatra_start_and_restart.md)
-* [Sinatra: Returning HTML](sinatra_returning_html.md)
-* [Checkpoint: HTTP part II](checkpoint_http_ii.md)
-* [Sinatra: Views](sinatra_views.md)
-* [Sinatra: `erb`](sinatra_erb.md)
-* [Sinatra: Keeping views clean](sinatra_keeping_views_clean.md)
-* [Sinatra: Introducing `params`](sinatra_introducing_params.md)
-* [Sinatra: Using forms](sinatra_using_forms.md)
-* [Sinatra: `POST`ed `params`](sinatra_posted_params.md)
-* [Sinatra: using the Chrome DevTools](sinatra_using_the_chrome_devtools.md)
-* [Testing with an Automated Browser and Capybara](testing_with_capybara.md)
-* [Checkpoint: Web Applications](checkpoint_web_applications.md)
-* [Getting Started with Battle](getting_started_with_battle.md)
-* [Getting test infrastructure set up](getting_test_infrastructure_set_up.md)
-* [Entering Players](entering_players.md)
-* [POST/`redirect`/GET pattern](post_redirect_get_pattern.md)
-* [Viewing hit points](viewing_hit_points.md)
-* [Test Helpers](test_helpers.md)
-* [Attacking Player 2](attacking_player_2.md)
-* [Extracting Logic to the Model](extracting_logic_to_the_model.md)
-* [Implementing Hit Points](implementing_hit_points.md)
-* [Single Responsibility Principle, anyone?](srp_anyone.md)
-* [Skinny Controllers](skinny_controllers.md)
-* [Switching Turns](switching_turns.md)
-* [Multiplayer](multiplayer.md)
+On Friday, you'll do a solo exercise which will help you to test your self assessment.
+### Resources
 
-### Post-challenges
+* [How the web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works) – you'll probably get asked about this in a job interview one day ;)
+* [History of the web](https://webfoundation.org/about/vision/history-of-the-web/?gclid=Cj0KCQjw59n8BRD2ARIsAAmgPmJcknSPKlT1ckzH7grP8DX_Mxr1be9qlqv13OEC9aI7pYe0CJoAVKQaAikrEALw_wcB)
+* [Technical learning resources](https://airtable.com/shrtZmDUTQmQFdaZV/tblokmw6yNUO75ge6)
 
-After the challenges, you can stretch yourself by increasing the complexity of Battle.
+### Exercises for self-directed learning
 
-* [Post Challenge](post_challenges/post_challenge.md)
+These exercises can be used for independent study, or enhanced by group discussion.  They will help you work towards this week's goals.  If you're not sure what to do, reach out to a coach right now!  Don't hesitate :)
+
+> WATCH OUT, REMOTE WORKERS!!  Some of these exercises ask you to collaborate with another learner and send messages from your machine to theirs. This will not work as described unless you're on the same network, so you won't be able to do those few parts whilst working remotely.
+
+| Key Skill             | Exercise.                                            |
+| --------------------- | ---------------------------------------------------- |
+| TDD                   | [Learn Capybara][capybara_workout]                   |
+|                       | [Birthday][birthday]                                 |
+| Servers/Clients       | [Servers][servers]                                   |
+|                       | [Clients][clients]                                   |
+|                       | [HTTP Severs][http_servers]                          |
+
+[capybara_workout]: https://makers-capybara-workout.herokuapp.com/
+[servers]: https://github.com/makersacademy/skills-workshops/blob/main/practicals/servers_and_clients/servers.md
+[clients]: https://github.com/makersacademy/skills-workshops/blob/main/practicals/servers_and_clients/clients.md
+[http_servers]: https://github.com/makersacademy/skills-workshops/blob/main/practicals/servers_and_clients/http_servers.md
+[birthday]: https://github.com/makersacademy/course/blob/main/intro_to_the_web/post_challenges/birthday_app.md
+
+### Pairing challenge
+
+[Intro to the web](https://github.com/makersacademy/course/blob/main/apprenticeships_intro_to_the_web)
+
+### Individual challenge
+
+[Rock Paper Scissors](https://github.com/makersacademy/rps-challenge-apprenticeships)
+
+### Overview
