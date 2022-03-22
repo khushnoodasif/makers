@@ -24,3 +24,4 @@ By learning about the Hypertext Transfer Protocol, you are working towards:
 - [HTTP Headers for Dummies](http://code.tutsplus.com/tutorials/http-headers-for-dummies--net-8039)
 - [Understanding HTTP
   Basics](http://learn.onemonth.com/understanding-http-basics)
+  
