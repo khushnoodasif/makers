@@ -1,4 +1,8 @@
-<p style='border: 3px dashed red'>
-  <h1>My name is <%= @name %></h1>
-  <img src= 'https://imgur.com/jFaSxym.png'>
+<p>
+  <h1 style='color:<%= @color %>'>My name is <%= @name %></h1>
+  <% if @adorable == "true" %>
+    <img style='border: 3px dashed blue' src= 'https://imgur.com/jFaSxym.png'>
+  <% else %>
+    <img style='border: 3px dashed red' src= 'https://imgur.com/jFaSxym.png'>
+  <% end %>
 </p>
