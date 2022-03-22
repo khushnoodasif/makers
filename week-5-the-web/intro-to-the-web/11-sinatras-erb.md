@@ -38,10 +38,10 @@ By learning how to make your views dynamic, you are working towards:
 
 ### To complete this challenge, you will need to:
 
-- [ ] Add an `h1` tag to your `index.erb` view file, with the words 'My name is ' inside it.
-- [ ] At the end of the `h1` tag (before it closes), append an empty interpolated Ruby Expression using `<%= %>` ('ERB tags')
-- [ ] Inside these ERB tags, write an expression that `sample`s a random name from the following array: `["Amigo", "Misty", "Almond"]`
-- [ ] Restart your server and visit the path associated with the cat route.
+- [x] Add an `h1` tag to your `index.erb` view file, with the words 'My name is ' inside it.
+- [x] At the end of the `h1` tag (before it closes), append an empty interpolated Ruby Expression using `<%= %>` ('ERB tags')
+- [x] Inside these ERB tags, write an expression that `sample`s a random name from the following array: `["Amigo", "Misty", "Almond"]`
+- [x] Restart your server and visit the path associated with the cat route.
 
 ### Resources
 

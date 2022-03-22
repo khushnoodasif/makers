@@ -17,9 +17,9 @@ In this challenge, you're learning about a _best practice_ that is relevant to a
 
 ### To complete this challenge, you will need to:
 
-- [ ] Move the expression for generating a random name into the route for your view, assigning it to an _instance variable_
-- [ ] Substitute the expression within the view for the instance variable instead
-- [ ] Visit the webpage to ensure nothing has gone wrong.
+- [x] Move the expression for generating a random name into the route for your view, assigning it to an _instance variable_
+- [x] Substitute the expression within the view for the instance variable instead
+- [x] Visit the webpage to ensure nothing has gone wrong.
 
 ### Resources
 

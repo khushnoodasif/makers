@@ -15,12 +15,12 @@ By learning how to add more routes to your Sinatra application, you are working 
 
 ### To complete this challenge, you will need to:
 
-- [ ] Define a second route, `get '/secret'`. Have it respond with a message of your choosing.
-- [ ] Visit the new route in the browser. Do you see the message you wrote? If not, move on.
-- [ ] Kill the app on the command line with `ctrl-c` and run it again.
-- [ ] Visit the new route in the browser again. Do you see the message you wrote this time?
-- [ ] Manually restarting the server every time you change your code is going to get painful. Use the `Sinatra::Reloader` extension to fix that.
-- [ ] Define a few more routes. Without killing the server, check if the routes are visitable.
+- [x] Define a second route, `get '/secret'`. Have it respond with a message of your choosing.
+- [x] Visit the new route in the browser. Do you see the message you wrote? If not, move on.
+- [x] Kill the app on the command line with `ctrl-c` and run it again.
+- [x] Visit the new route in the browser again. Do you see the message you wrote this time?
+- [x] Manually restarting the server every time you change your code is going to get painful. Use the `Sinatra::Reloader` extension to fix that.
+- [x] Define a few more routes. Without killing the server, check if the routes are visitable.
 
 ### Resources
 

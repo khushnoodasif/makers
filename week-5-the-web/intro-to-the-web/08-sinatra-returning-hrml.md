@@ -21,8 +21,8 @@ By learning how to add more routes to your Sinatra application, you are working 
 
 ### To complete this challenge, you will need to:
 
-- [ ] Define a new route, called `get '/cat'`.
-- [ ] Using this image: https://i.imgur.com/jFaSxym.png, return an HTML string from the route that displays a cat photograph surrounded by a red dashed border.
+- [x] Define a new route, called `get '/cat'`.
+- [x] Using this image: https://i.imgur.com/jFaSxym.png, return an HTML string from the route that displays a cat photograph surrounded by a red dashed border.
 
 ### Resources
 

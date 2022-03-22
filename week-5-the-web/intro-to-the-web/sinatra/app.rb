@@ -1,12 +1,16 @@
 require 'sinatra'
 require "sinatra/reloader" if development?
 
-get '/' do "cat"
+get '/random-cat' do
+  @name = ["Amigo", "Misty", "Almond"].sample
+  erb(:index)
 end
 
-get '/cat' do 
-  "<p style='border: 2px dotted red'>
-  <img src= 'https://imgur.com/jFaSxym.png'>
-   </p>"
-
+get '/named-cat' do
+  p params
+  @name = params[:name]
+  @color = params[:color]
+  @adorable = params[:adorable]
+  erb(:index)
 end
+

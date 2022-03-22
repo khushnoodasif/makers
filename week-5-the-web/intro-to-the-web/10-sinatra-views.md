@@ -15,13 +15,13 @@ By learning how to use views in your Sinatra application, you are working toward
 
 ### To complete this challenge, you will need to:
 
-- [ ] Create a directory called `views`, within the same directory as your `app.rb` file
-- [ ] Create an `index.erb` file (a 'view file') within the `views` directory
-- [ ] Move the HTML string you wrote in `app.rb` ('routing file') into the view file you just created
-- [ ] Replace the HTML string in the routing file with the statement `erb(:index)`
-- [ ] Restart your server, and visit your previously-working route
-- [ ] Explain to your pair partner what you see.
-- [ ] Explain what is meant by 'separation of concerns' and why it's an important practice
+- [x] Create a directory called `views`, within the same directory as your `app.rb` file
+- [x] Create an `index.erb` file (a 'view file') within the `views` directory
+- [x] Move the HTML string you wrote in `app.rb` ('routing file') into the view file you just created
+- [x] Replace the HTML string in the routing file with the statement `erb(:index)`
+- [x] Restart your server, and visit your previously-working route
+- [x] Explain to your pair partner what you see.
+- [x] Explain what is meant by 'separation of concerns' and why it's an important practice
 
 ### Resources
 

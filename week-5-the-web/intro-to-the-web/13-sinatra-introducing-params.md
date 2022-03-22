@@ -14,16 +14,16 @@ By learning how to use params in Sinatra, you are working towards:
 
 ### To complete this challenge, you will need to:
 
-- [ ] Rename your `/cat` route to `/random-cat`.
-- [ ] Build a new route, `/named-cat`, that does the same as `/random-cat`.
-- [ ] Instead of setting the `@name` instance variable equal to a sampled array, set it equal to `params[:name]`
-- [ ] Visit your route from a browser
-- [ ] Explain to your pair partner what you see
-- [ ] In the browser URL, add the following **query string** after the `/named-cat` path: `?name=Ashley`, and visit that page
-- [ ] Explain to your pair partner what you see
-- [ ] In the line before you assign your `@name` variable, print (`p`) the `params` of the request
-- [ ] Restart your server and refresh the page. Check the terminal (**server logs**) and explain to your pair partner what you see
-- [ ] Change parts of the **query string** within the URL bar of your browser until you can fully explain how it works to your pair partner.
+- [x] Rename your `/cat` route to `/random-cat`.
+- [x] Build a new route, `/named-cat`, that does the same as `/random-cat`.
+- [x] Instead of setting the `@name` instance variable equal to a sampled array, set it equal to `params[:name]`
+- [x] Visit your route from a browser
+- [x] Explain to your pair partner what you see
+- [x] In the browser URL, add the following **query string** after the `/named-cat` path: `?name=Ashley`, and visit that page
+- [x] Explain to your pair partner what you see
+- [x] In the line before you assign your `@name` variable, print (`p`) the `params` of the request
+- [x] Restart your server and refresh the page. Check the terminal (**server logs**) and explain to your pair partner what you see
+- [x] Change parts of the **query string** within the URL bar of your browser until you can fully explain how it works to your pair partner.
 
 ### Resources
 
