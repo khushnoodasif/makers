@@ -1,8 +1,13 @@
-<p>
   <h1 style='color:<%= @color %>'>My name is <%= @name %></h1>
-  <% if @adorable == "true" %>
+  <form action='/named-cat'>
+  <input type="text" name="name">
+  <input type="submit" value="Submit">
+  </form>
+  <div>
+
+  <% if @adorable == "true"  %>
     <img style='border: 3px dashed blue' src= 'https://imgur.com/jFaSxym.png'>
   <% else %>
     <img style='border: 3px dashed red' src= 'https://imgur.com/jFaSxym.png'>
   <% end %>
-</p>
+</div>
