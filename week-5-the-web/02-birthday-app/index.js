@@ -24,3 +24,4 @@ function calculateDays() {
   } else {
     document.getElementById("days-left").innerText = "Please enter a valid birtday.";
   }
+}
