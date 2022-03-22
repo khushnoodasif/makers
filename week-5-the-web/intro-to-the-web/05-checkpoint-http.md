@@ -20,4 +20,4 @@ The first four steps in this challenge focused on one of the weekly goals:
 
 A great way to test your understanding of this material is to diagram the process of a client sending a server a request. Spend 10 minutes doing that now, in as much detail as possible, and then compare your diagram to that of your pair. Are there any gaps or places where you were unable to go into as much detail? Make a note them – some will be filled in by the rest of this exercise.
 
-<img src="./http-get-post-request.png">
+<img src="./images/http-get-post-request.png">
