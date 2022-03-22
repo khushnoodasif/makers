@@ -22,16 +22,16 @@ To complete this challenge you will need to have Firefox installed.
 > Why do you now need Firefox, as well as Chrome? Because Capybara uses Firefox by default.
 ### To complete this challenge, you will need to:
 
-- [ ] Make sure you have installed Firefox browser on your machine (you can use `brew install firefox` if you haven't).
-- [ ] List `capybara` and `selenium-webdriver` in a Gemfile.
-- [ ] make sure bundle install works - you may need to manually install Xcode if you haven't already.
-- [ ] install Firefox GeckoDriver, `brew install geckodriver`. If Firefox does not work for you after installing GeckoDriver, it is also possible to use [gem 'chromedriver-helper'](https://github.com/flavorjones/chromedriver-helper).
-- [ ] Open up *PRY* or *IRB* and require both `capybara/dsl` and `selenium-webdriver`.
-- [ ] Within the REPL, `$ include Capybara::DSL`.
-- [ ] [Set Capybara's default driver](https://github.com/jnicklas/capybara#selecting-the-driver) to be selenium.
-- [ ] Use Capybara's `visit` command to take the automated browser to [http://makers-capybara-workout.herokuapp.com/](http://makers-capybara-workout.herokuapp.com/), and use the `click_link` command to click 'Start Workout!'
-- [ ] Refer to a [Capybara cheat sheet](https://thoughtbot.com/upcase/test-driven-rails-resources/capybara.pdf) and complete the Capybara workout.
-- [ ] Explain to your pair partner what jobs `capybara` and `selenium-webdriver` do.
+- [x] Make sure you have installed Firefox browser on your machine (you can use `brew install firefox` if you haven't).
+- [x] List `capybara` and `selenium-webdriver` in a Gemfile.
+- [x] make sure bundle install works - you may need to manually install Xcode if you haven't already.
+- [x] install Firefox GeckoDriver, `brew install geckodriver`. If Firefox does not work for you after installing GeckoDriver, it is also possible to use [gem 'chromedriver-helper'](https://github.com/flavorjones/chromedriver-helper).
+- [x] Open up *PRY* or *IRB* and require both `capybara/dsl` and `selenium-webdriver`.
+- [x] Within the REPL, `$ include Capybara::DSL`.
+- [x] [Set Capybara's default driver](https://github.com/jnicklas/capybara#selecting-the-driver) to be selenium.
+- [x] Use Capybara's `visit` command to take the automated browser to [http://makers-capybara-workout.herokuapp.com/](http://makers-capybara-workout.herokuapp.com/), and use the `click_link` command to click 'Start Workout!'
+- [x] Refer to a [Capybara cheat sheet](https://thoughtbot.com/upcase/test-driven-rails-resources/capybara.pdf) and complete the Capybara workout.
+- [x] Explain to your pair partner what jobs `capybara` and `selenium-webdriver` do.
 
 ### Resources
 

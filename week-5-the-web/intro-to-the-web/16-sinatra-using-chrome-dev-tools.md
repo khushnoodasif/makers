@@ -14,11 +14,11 @@ By learning how to use Chrome's dev tools, you are working towards:
 
 ### To complete this challenge, you will need to:
 
-- [ ] Open the Chrome DevTools within your browser
-- [ ] Switch to the Network pane of the DevTools
-- [ ] Interact with your application, explaining to your pair partner what is happening in the DevTools when you do so
-- [ ] Locate the method for each request
-- [ ] Locate the form data for `POST` requests
+- [x] Open the Chrome DevTools within your browser
+- [x] Switch to the Network pane of the DevTools
+- [x] Interact with your application, explaining to your pair partner what is happening in the DevTools when you do so
+- [x] Locate the method for each request
+- [x] Locate the form data for `POST` requests
 
 ### Resources
 

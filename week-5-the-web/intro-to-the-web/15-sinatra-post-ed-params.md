@@ -38,13 +38,13 @@ By learning how to submit data via a form and validate that the server has recei
 
 ### To complete this challenge, you will need to:
 
-- [ ] Write a new `get` route that renders only the cat-naming `form`
-- [ ] Add a `method` attribute to your `form` element, with the value `"post"`
-- [ ] Change your `/named-cat` route to use `post` instead of `get`
-- [ ] Interact with your application
-- [ ] Observe the URL query string when you submit the form
-- [ ] Observe the printed `params` when you submit the form
-- [ ] Explain your observations to your pair partner.
+- [x] Write a new `get` route that renders only the cat-naming `form`
+- [x] Add a `method` attribute to your `form` element, with the value `"post"`
+- [x] Change your `/named-cat` route to use `post` instead of `get`
+- [x] Interact with your application
+- [x] Observe the URL query string when you submit the form
+- [x] Observe the printed `params` when you submit the form
+- [x] Explain your observations to your pair partner.
 
 ### Resources
 
