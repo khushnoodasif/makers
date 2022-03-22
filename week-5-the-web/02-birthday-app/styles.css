@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .container {
   width: auto;
   margin: auto;
@@ -63,70 +62,3 @@ footer {
   text-align: center;
   font-size: 4.5rem;
   font-family: 'Amatic SC', cursive;
-=======
-.container {
-  width: auto;
-  margin: auto;
-  text-align: center;
-}
-
-body {
-  background-color: #0a192f;
-}
-
-h1 {
-  margin: 30px;
-  font-family: 'Amatic SC', cursive;
-  text-shadow: 5px 0 #182a46;
-  font-size: 8rem;
-  color: #64ffda;
-}
-
-p {
-  font-size: 4rem;
-  color: #64ffda;
-  text-align: center;
-  font-family: 'Amatic SC';
-}
-
-label{
-  display: inline-block;
-  float: none;
-  clear: left;
-  width: 250px;
-  text-align: right;
-  color: #64ffda;
-  font-family: 'Amatic SC';
-}
-
-.row {
-display: inline-block;
-float: none;
-text-align: center;
-font-size: 2rem;
-}
-
-.submit {
-  margin: 30px;
-  font-family: 'Amatic SC', cursive;
-  text-shadow: 5px 0 #182a46;
-  font-size: 5rem;
-  color: #64ffda;
-}
-
-input {
-  margin: 30px;
-  font-family: 'Amatic SC', cursive;
-  text-shadow: 1px 0 #182a46;
-  font-size: 2rem;
-  color: #64ffda;
-}
-
-footer {
-  margin-top: 10%;
-  color: #EEEEEE;
-  text-align: center;
-  font-size: 4.5rem;
-  font-family: 'Amatic SC', cursive;
->>>>>>> b1748959923c0edfb4f15441de31b977473e7f5b
-}
