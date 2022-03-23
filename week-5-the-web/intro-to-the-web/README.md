@@ -43,7 +43,7 @@ On Friday you'll be tasked with putting everything you've covered into practice 
 * [Getting Started with Battle](challenges/19-getting-started-with-battle.md)
 * [Getting test infrastructure set up](challenges/20-getting-test-infrastructure-set-up.md)
 * [Entering Players](challenges/21-entering-players.md)
-* [POST/`redirect`/GET pattern])(challenges/22-post-redirect-get-pattern.md)
+* [POST/`redirect`/GET pattern](challenges/22-post-redirect-get-pattern.md)
 * [Viewing hit points](challenges/23-viewing-hit-points.md)
 * [Test Helpers](challenges/24-test-helpers.md)
 * [Attacking Player 2](challenges/25-attacking-player-2.md)
