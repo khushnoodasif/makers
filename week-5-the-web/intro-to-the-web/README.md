@@ -19,7 +19,7 @@ You will also have opportunities to address the other three
 On Friday you'll be tasked with putting everything you've covered into practice in the end of module challenge. To help you get ready for that, make some time on Thursday to reflect, with your pair, on everything you've covered this week.
 
 ## Challenges
-
+### Introducing Sinatra
 * [The Web: An Introduction]
 * [The Hypertext Transfer Protocol (HTTP)]
 * [HTTP: Parameters]
@@ -39,6 +39,8 @@ On Friday you'll be tasked with putting everything you've covered into practice 
 * [Sinatra: using the Chrome DevTools]
 * [Testing with an Automated Browser and Capybara]
 * [Checkpoint: Web Applications]
+
+### Battle
 * [Getting Started with Battle]
 * [Getting test infrastructure set up]
 * [Entering Players]
