@@ -28,10 +28,10 @@ By the end of the week:
 
 ### Pairing challenge
 
-[Intro to the web](https://github.com/makersacademy/course/blob/main/apprenticeships_intro_to_the_web)
+[Intro to the web](intro-to-the-web)
 
 ### Individual challenge
 
-[Rock Paper Scissors](https://github.com/makersacademy/rps-challenge-apprenticeships)
+[Rock Paper Scissors](rock-paper-scissors)
 
 ### Overview
