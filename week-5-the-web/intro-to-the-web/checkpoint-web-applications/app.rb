@@ -17,3 +17,4 @@ get '/named-cat' do
   @adorable = params[:adorable]
   erb(:index)
 end
+
