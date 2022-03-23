@@ -11,6 +11,8 @@ feature "form" do
     fill_in :player_1, with: 'Player 1'
     fill_in :player_2, with: 'Player 2'
     click_button 'Submit'
+
+    save_and_open_page
     expect(page).to have_content 'Player 1 vs. Player 2'
   end
 end

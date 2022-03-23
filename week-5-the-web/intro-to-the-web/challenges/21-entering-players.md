@@ -23,11 +23,11 @@ Revisit the application you made earlier to recap how you've done similar things
 
 ### To complete this challenge, you will need to:
 
-- [ ] In `spec/features`, add a new Capybara feature test that expects players to fill in their names (in a form), submit that form, and see those names on-screen
-- [ ] Create a `get '/'` route that renders a`index.erb` view with a form
-- [ ] Point the `index.erb` form action to a `post '/names'` route
-- [ ] Create a `post '/names'` route that uses `params` to render a `play.erb` view that displays the names
-- [ ] Pass the feature test you wrote.
+- [x] In `spec/features`, add a new Capybara feature test that expects players to fill in their names (in a form), submit that form, and see those names on-screen
+- [x] Create a `get '/'` route that renders a`index.erb` view with a form
+- [x] Point the `index.erb` form action to a `post '/names'` route
+- [x] Create a `post '/names'` route that uses `params` to render a `play.erb` view that displays the names
+- [x] Pass the feature test you wrote.
 
 ### Resources
 
