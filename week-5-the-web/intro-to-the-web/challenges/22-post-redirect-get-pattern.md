@@ -25,12 +25,12 @@ Using the post-redirect-get pattern will help you build user-friendly web applic
 
 ### To complete this challenge, you will need to:
 
-- [ ] Use `enable` to enable the `session` in Sinatra
-- [ ] In the `post '/names'` route, store the player names in the `session`
-- [ ] Write a `get '/play` route that renders the `play.erb` view you already wrote
-- [ ] In the `get '/play'` route, extract the instance variables required by the view from the `session`
-- [ ] Remove the `erb :play` expression from the `post '/names'` route, and replace it with a `redirect` to the `'/play'` route
-- [ ] Ensure your `enter_names_spec` feature test still passes.
+- [x] Use `enable` to enable the `session` in Sinatra
+- [x] In the `post '/names'` route, store the player names in the `session`
+- [x] Write a `get '/play` route that renders the `play.erb` view you already wrote
+- [x] In the `get '/play'` route, extract the instance variables required by the view from the `session`
+- [x] Remove the `erb :play` expression from the `post '/names'` route, and replace it with a `redirect` to the `'/play'` route
+- [x] Ensure your `enter_names_spec` feature test still passes.
 
 ### Resources
 

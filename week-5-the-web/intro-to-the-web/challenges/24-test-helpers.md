@@ -16,16 +16,16 @@ In this challenge, you'll DRY up your tests and the helpers that you create will
 
 ### To complete this challenge, you will need to:
 
-- [ ] Make a new file, `spec/features/web_helpers.rb`
-- [ ] `require` this file inside your `spec_helper.rb`
-- [ ] Define a method inside this file, `sign_in_and_play`
-- [ ] Extract code from your two feature tests that:
+- [x] Make a new file, `spec/features/web_helpers.rb`
+- [x] `require` this file inside your `spec_helper.rb`
+- [x] Define a method inside this file, `sign_in_and_play`
+- [x] Extract code from your two feature tests that:
   - visits the homepage,
   - fills in the fields, and
   - clicks submit
-- [ ] Place this extracted code inside `sign_in_and_play`
-- [ ] Replace these lengthy lines in your feature tests with a call to `sign_in_and_play`.
-- [ ] Explain how these steps improved the quality of your code base
+- [x] Place this extracted code inside `sign_in_and_play`
+- [x] Replace these lengthy lines in your feature tests with a call to `sign_in_and_play`.
+- [x] Explain how these steps improved the quality of your code base
 
 ### Resources
 

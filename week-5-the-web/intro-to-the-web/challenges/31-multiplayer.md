@@ -27,7 +27,7 @@ By implementing this user story, you are working towards:
 
 ### To complete this challenge, you will need to:
 
-- [ ] Write and implement Capybara-driven features for the User Stories above. Pick an order you feel will work best.
+- [x] Write and implement Capybara-driven features for the User Stories above. Pick an order you feel will work best.
 
 ### Resources
 

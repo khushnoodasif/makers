@@ -17,8 +17,8 @@ You are also applying a _best practice_ – **Single Responsibility Principle (S
 
 ### To complete this challenge, you will need to:
 
-- [ ] Extract the `#attack` method (and associated tests) into a `Game` class
-- [ ] Refactor your controller so it uses a `Game` instance to make an attack.
+- [x] Extract the `#attack` method (and associated tests) into a `Game` class
+- [x] Refactor your controller so it uses a `Game` instance to make an attack.
 
 ### Resources
 

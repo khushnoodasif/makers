@@ -47,13 +47,13 @@ You are also applying a _best practice_ – **Separation of Concerns**.
 
 ### To complete this challenge, you will need to:
 
-- [ ] Create a new spec file for a `Player` class, `spec/player_spec.rb`
-- [ ] Give `Player` a tested method that returns its name
-- [ ] `require` the `Player` class in your controller file, `app.rb`
-- [ ] Instead of storing player names as strings in the `session`, store them as attributes of instances of the `Player` class in global variables (declared using `$`)
-- [ ] Commit to memory the fact that using a global variable will ruin any tech tests you do, and promise to your pair partner that you never will
-- [ ] Update your instance variables to reference the `Player` instances rather than the `session` keys
-- [ ] Ensure all your tests still pass.
+- [x] Create a new spec file for a `Player` class, `spec/player_spec.rb`
+- [x] Give `Player` a tested method that returns its name
+- [x] `require` the `Player` class in your controller file, `app.rb`
+- [x] Instead of storing player names as strings in the `session`, store them as attributes of instances of the `Player` class in global variables (declared using `$`)
+- [x] Commit to memory the fact that using a global variable will ruin any tech tests you do, and promise to your pair partner that you never will
+- [x] Update your instance variables to reference the `Player` instances rather than the `session` keys
+- [x] Ensure all your tests still pass.
 
 ### Resources
 

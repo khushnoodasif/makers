@@ -21,9 +21,9 @@ By completing the second user story, you are working towards:
 
 ### To complete this challenge, you will need to:
 
-- [ ] Interpret the user story and consider exactly what the user will see, once it is completed
-- [ ] Write a feature test for the User Story above
-- [ ] Pass this test with minimal implementation.
+- [x] Interpret the user story and consider exactly what the user will see, once it is completed
+- [x] Write a feature test for the User Story above
+- [x] Pass this test with minimal implementation.
 
 ### Resources
 
