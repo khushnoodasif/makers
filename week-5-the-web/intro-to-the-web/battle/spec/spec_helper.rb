@@ -14,6 +14,7 @@
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
+require 'features/web_helpers'
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
