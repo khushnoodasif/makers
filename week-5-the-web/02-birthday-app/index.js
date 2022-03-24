@@ -5,7 +5,7 @@ function calculateDays() {
   var age = today.getFullYear() - bday.getFullYear();
   var month = today.getMonth() - bday.getMonth();
 
-  if (month < 0 || (month === 0 && today.getDate() > bday.getDate())) {
+  if (month > 0 || (month === 0 && today.getDate() > bday.getDate())) {
     age++;
   }
   
@@ -20,7 +20,7 @@ function calculateDays() {
   var daysLeft = Math.ceil((upcomingBday.getTime() - today.getTime()) / (one_day));
   
   if (daysLeft && age < 200) {
-    document.getElementById("days-left").innerText = name + ` In ${daysLeft} day(s), you will be ${age}!`;  
+    document.getElementById("days-left").innerText = name + ` In ${daysLeft} day(s), you will be ${age}!`; 
   } else {
     document.getElementById("days-left").innerText = "Please enter a valid birtday.";
   }
