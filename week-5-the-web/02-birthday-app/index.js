@@ -1,23 +1,23 @@
-(function () {
-  let today = new Date();
-  document.getElementById("bday").max = today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + (today.getDate() < 10 ? ("0" + (today.getDate()-1)) : (today.getDate()-1));
-})();
-
 function calculateDays() {
-  let name = document.getElementById("name").value;
-  let today = new Date();
-  let bday = new Date(document.getElementById("bday").value); 
-  let age = today.getFullYear() - bday.getFullYear();
+  var name = document.getElementById("name").value;
+  var today = new Date();
+  var bday = new Date(document.getElementById("bday").value); 
+  var age = today.getFullYear() - bday.getFullYear();
+  var month = today.getMonth() - bday.getMonth();
+
+  if (month < 0 || (month === 0 && today.getDate() > bday.getDate())) {
+    age++;
+  }
   
-  let upcomingBday = new Date(today.getFullYear(), bday.getMonth(), bday.getDate());
+  var upcomingBday = new Date(today.getFullYear(), bday.getMonth(), bday.getDate());
   
   if(today > upcomingBday) {
-    upcomingBday.setFullYear(today.getFullYear() + 1);
+    upcomingBday.setFullYear(today.getFullYear()+1);
   }
   
   var one_day = 24 * 60 * 60 * 1000;
   
-  let daysLeft = Math.ceil((upcomingBday.getTime() - today.getTime()) / (one_day));
+  var daysLeft = Math.ceil((upcomingBday.getTime() - today.getTime()) / (one_day));
   
   if (daysLeft && age < 200) {
     document.getElementById("days-left").innerText = name + ` In ${daysLeft} day(s), you will be ${age}!`;  

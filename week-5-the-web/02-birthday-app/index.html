@@ -8,12 +8,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Pacifico&family=Satisfy&family=Zen+Kurenaido&display=swap"
     rel="stylesheet">
-
 </head>
 
-<body>
-
-  <div class="container">
+<body class="container">
     <h1>
       Birthday Calculator
     </h1>
@@ -22,12 +19,12 @@
       <p>What's your name?</p><input type="text" id="name" onchange="calculateDays()">
     </div>
 
-    <div>
+    <div class="row">
       <p>
         When is your birthday?  
       </p>
       <form>
-        <input id="bday" onblur="calculateDays()" type="date" />
+        <input id="bday" onchange="calculateDays()" type="date" />
         <p id="result"></p>
       </form>
     </div>
