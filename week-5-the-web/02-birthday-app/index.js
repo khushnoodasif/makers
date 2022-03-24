@@ -19,7 +19,9 @@ function calculateDays() {
   
   var daysLeft = Math.ceil((upcomingBday.getTime() - today.getTime()) / (one_day));
   
-  if (daysLeft && age < 200) {
+  if (daysLeft === 365) {
+    document.getElementById("days-left").innerText = "Happy Birthday! " + name + "! You are now " + age + "!";
+  } else if (daysLeft && age < 200) {
     document.getElementById("days-left").innerText = name + ` In ${daysLeft} day(s), you will be ${age}!`; 
   } else {
     document.getElementById("days-left").innerText = "Please enter a valid birtday.";
