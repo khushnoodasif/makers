@@ -29,6 +29,7 @@ input {
   text-shadow: 0px 0 #64ffda;
   font-size: 2rem;
   color: #182a46;
+  text-align: center;
 }
 
 .submit {
