@@ -28,8 +28,8 @@ describe Player do
     end
 
     it 'returns true if player has zero hit points' do
-      6.times { player2.receive_damage }
-      expect(player2.dead?).to eq true
+      6.times { player_2.receive_damage }
+      expect(player_2.dead?).to eq true
     end
   end
 end
