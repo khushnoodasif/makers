@@ -11,9 +11,9 @@ We've written a user story and we have an idea of the first interaction, before 
 
 ## To complete this challenge, you will need to
 
-- [ ] Set up Sinatra with RSpec and Capybara.
-- [ ] Set up a 'Hello, world' Sinatra application.
-- [ ] Test drive a simple index page for your bookmark manager.
+- [x] Set up Sinatra with RSpec and Capybara.
+- [x] Set up a 'Hello, world' Sinatra application.
+- [x] Test drive a simple index page for your bookmark manager.
 
 > Optional set up steps
 - Now is a good time to set up linting and test coverage reporting - we recommend using Rubocop and SimpleCov. Doing this early will help you to keep your code clean and test coverage high.
