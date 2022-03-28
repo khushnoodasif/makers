@@ -21,7 +21,7 @@ By implementing this user story, you are working towards:
 
 ### To complete this challenge, you will need to:
 
-- [ ] Write and implement a Capybara-driven feature test for switching turns.
+- [x] Write and implement a Capybara-driven feature test for switching turns.
 
 ### Resources
 
