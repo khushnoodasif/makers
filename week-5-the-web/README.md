@@ -32,6 +32,6 @@ By the end of the week:
 
 ### Individual challenge
 
-[Rock Paper Scissors](rock-paper-scissors)
+[Rock Paper Scissors](https://github.com/khushnoodasif/rps-web-app)
 
 ### Overview
