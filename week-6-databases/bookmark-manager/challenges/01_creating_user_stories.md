@@ -26,9 +26,9 @@ Throughout this challenge we'll create User Stories based on the specification, 
 
 ## To complete this challenge, you will need to
 
-- [ ] Write a user story for showing a list of bookmarks
-- [ ] Draw a rough domain model for the above
-- [ ] Put the user story and a snap of your domain model in your project README
+- [x]] Write a user story for showing a list of bookmarks
+- [x]] Draw a rough domain model for the above
+- [x]] Put the user story and a snap of your domain model in your project README
 
 ## Resources
 
