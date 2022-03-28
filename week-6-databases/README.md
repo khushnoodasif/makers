@@ -42,7 +42,7 @@ These exercises can be used for independent study, or enhanced by pairing and gr
 
 ### Pairing challenge
 
-The [Bookmark Manager](https://github.com/makersacademy/course/blob/main/apprenticeships_bookmark_manager/00_challenge_map.md) Challenge
+The [Bookmark Manager](bookmark-manager) Challenge
 
 ### Individual challenge
 
