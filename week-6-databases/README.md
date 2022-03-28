@@ -2,8 +2,6 @@
 
 This week, you'll learn how to build database-backed web applications.  Along the way, you'll build your own [Object Relational Mapper](https://en.wikipedia.org/wiki/DataMapper). Bear in mind that you'll probably never have to do this again – you'd use an existing tool like [Active Record](https://github.com/rails/rails/tree/master/activerecord) or [Ruby Object Mapper](https://rom-rb.org/) instead – but building your own tools is a great way to learn how they work.
 
-[START HERE](./pills/databases.md) with a brief introduction to databases.
-
 ### This module's main goals
 
 By the end of the module all developers can:
@@ -49,3 +47,5 @@ The [Bookmark Manager](https://github.com/makersacademy/course/blob/main/apprent
 ### Individual challenge
 
 [Chitter](https://github.com/makersacademy/chitter-challenge-apprenticeships)
+
+### Overview
