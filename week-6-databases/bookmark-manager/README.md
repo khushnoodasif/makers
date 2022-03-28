@@ -54,28 +54,28 @@ The challenge material is pretty tough this week. You're not meant to get throug
 ## Challenges
 
 ### Core challenges
- 1. [Creating User Stories](01_creating_user_stories.md)
- 2. [Setting up a Web Project](02_setting_up_a_web_project.md)
- 3. [Viewing bookmarks](03_viewing_bookmarks.md)
- 4. [Setting up a Database](04_setting_up_a_database.md)
- 5. [Creating your First Table](05_creating_your_first_table.md)
- 6. [Manipulating Table Data](06_manipulating_table_data.md)
- 7. [Interacting with Postgres from Ruby](07_interacting_with_postgres_from_ruby.md)
- 8. [Upgrading your Toolset](08_upgrading_your_toolset.md)
- 9. [Setting up a Testing Environment](09_setting_up_a_testing_environment.md)
- 10. [Creating bookmarks](10_creating_bookmarks.md)
- 11. [Wrapping Database data in program objects](11_wrapping_database_data_in_program_objects.md)
- 12. [Securing Your App](./12_securing_your_app.md)
- 13. [Deleting bookmarks](13_deleting_bookmarks.md)
+ 1. [Creating User Stories](challenges/01_creating_user_stories.md)
+ 2. [Setting up a Web Project](challenges/02_setting_up_a_web_project.md)
+ 3. [Viewing bookmarks](challenges/03_viewing_bookmarks.md)
+ 4. [Setting up a Database](challenges/04_setting_up_a_database.md)
+ 5. [Creating your First Table](challenges/05_creating_your_first_table.md)
+ 6. [Manipulating Table Data](challenges/06_manipulating_table_data.md)
+ 7. [Interacting with Postgres from Ruby](challenges/07_interacting_with_postgres_from_ruby.md)
+ 8. [Upgrading your Toolset](challenges/08_upgrading_your_toolset.md)
+ 9. [Setting up a Testing Environment](challenges/09_setting_up_a_testing_environment.md)
+ 10. [Creating bookmarks](challenges/10_creating_bookmarks.md)
+ 11. [Wrapping Database data in program objects](challenges/11_wrapping_database_data_in_program_objects.md)
+ 12. [Securing Your App](challenges/./12_securing_your_app.md)
+ 13. [Deleting bookmarks](challenges/13_deleting_bookmarks.md)
 
 ### Guided extensions
- 14. [CRUD](14_crud.md)
- 15. [Extracting a Database Setup object](15_extracting_a_database_setup_object.md)
- 16. [Validating bookmarks](16_validating_bookmarks.md)
- 17. [One to Many Relationships](17_one_to_many_relations.md)
- 18. [Many to Many Relationships](18_many_to_many_relationships.md)
- 19. [Registration](19_registration.md)
- 20. [Authentication](20_authentication.md)
+ 14. [CRUD](challenges/14_crud.md)
+ 15. [Extracting a Database Setup object](challenges/15_extracting_a_database_setup_object.md)
+ 16. [Validating bookmarks](challenges/16_validating_bookmarks.md)
+ 17. [One to Many Relationships](challenges/17_one_to_many_relations.md)
+ 18. [Many to Many Relationships](challenges/18_many_to_many_relationships.md)
+ 19. [Registration](challenges/19_registration.md)
+ 20. [Authentication](challenges/20_authentication.md)
 
 ### Unguided extensions
 
