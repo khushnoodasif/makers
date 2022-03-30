@@ -35,3 +35,5 @@ By the end of the week:
 [Rock Paper Scissors](https://github.com/khushnoodasif/rps-web-app)
 
 ### Overview
+
+I have learned a lot about how the web works as well as how to interact with different websites and use the terminal. Although I understand the very basics of this module, it is very difficult for me to build it without using a guide or looking online for answers. As a result of this module, I feel like I need to put more effort into understanding concepts outside of apprenticeship. Unfortunately, I do not have any free time outside of work. In order to complete my work, I will take notes as I go. By not making notes, I have forgotten what I've learned and have to constantly review previous sections of the module. While this unit gives many tasks with walkthroughs, I found it more challenging because some of the errors I encountered weren't very straightforward. This took me a while to figure out. Throughout this course, I learned how every single line of code matters as this can cause big issues and prevent your code from even being able to run locally.
