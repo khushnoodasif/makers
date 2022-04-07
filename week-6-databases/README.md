@@ -46,6 +46,8 @@ The [Bookmark Manager](bookmark-manager) Challenge
 
 ### Individual challenge
 
-[Chitter](https://github.com/makersacademy/chitter-challenge-apprenticeships)
+[Chitter](https://github.com/khushnoodasif/chitter-app)
 
 ### Overview
+
+It was one of the hardest modules for me. Due to how difficult it was for me to understand and implement databases with web-based applications, I struggled with a lot of the challenges. Being unable to understand exactly what I am doing in this module and giving up and using the solutions given and getting stuck on those as well. I will have to go through the module again to fully comprehend and attempt the challenges.
