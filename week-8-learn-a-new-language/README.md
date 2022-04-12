@@ -62,7 +62,7 @@ These exercises can be used for independent study, or enhanced by group discussi
 
 #### Pairing challenge
 
-[Thermostat](thermostat_es6)
+[Thermostat](thermostat)
 
 #### Individual challenge
 
