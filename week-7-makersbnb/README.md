@@ -63,4 +63,4 @@ How many of these can you tick off?
 ### Overview
 There were many things I learned this week, including working on Github with several people, merging branches together, pushing requests, and using issues. Our team managed to create an interactive app through a combination of methods that we had learned throughout the course. We worked on Trello through tickets and user stories and assigned tasks to each other. Below is the repo containing all the work we did to build the makersbnb web application.
 
-[MAKERSBNB Repo](https://github.com/khadirkilo92/makersbnb)
+[MakersBNB Repo](https://github.com/khadirkilo92/makersbnb)
