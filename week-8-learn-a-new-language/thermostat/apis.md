@@ -1,7 +1,5 @@
 # Thermostat: APIs
 
-[Back to the Challenge Map](README.md)
-
 Wouldn't it be good if before setting your thermometer's temperature, you knew what the weather was like outside and then you could set the thermometer's interface appropriately?
 
 Add a feature to display the weather in a city selected by the user.
@@ -24,17 +22,3 @@ Add a feature to display the weather in a city selected by the user.
 - [Calling APIs in Javascript](https://github.com/makersacademy/course/blob/main/pills/calling_apis_in_javascript.md)
 - [MDN documentation on Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [Learn about Fetch on javascript.info](https://javascript.info/fetch)
-
-### [Walkthrough](walkthroughs/apis.md)
-
-[Next Challenge](./styling.md)
-
-<!-- BEGIN GENERATED SECTION DO NOT EDIT -->
-
----
-
-**How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/apis.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/apis.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/apis.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/apis.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/apis.md&prefill_Sentiment=😀)  
-Click an emoji to tell us.
-
-<!-- END GENERATED SECTION DO NOT EDIT -->

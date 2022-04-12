@@ -1,7 +1,5 @@
 # Thermostat: business logic
 
-[Back to the Challenge Map](README.md)
-
 Now that you've got the basics under your fingers, it's time for a new domain.
 
 In this challenge, you will build the logic needed to model a simple thermostat.
@@ -36,17 +34,3 @@ Specification:
 - [Strict Mode on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 - [Master the `this` keyword](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 - [Some examples of the scope of variables in JavaScript](http://stackoverflow.com/a/500459/1109968)
-
-### [Walkthrough](walkthroughs/thermostat_logic.md)
-
-[Next Challenge](./interface.md)
-
-<!-- BEGIN GENERATED SECTION DO NOT EDIT -->
-
----
-
-**How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/thermostat_logic.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/thermostat_logic.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/thermostat_logic.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/thermostat_logic.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/thermostat_logic.md&prefill_Sentiment=😀)  
-Click an emoji to tell us.
-
-<!-- END GENERATED SECTION DO NOT EDIT -->

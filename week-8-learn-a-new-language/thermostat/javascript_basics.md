@@ -1,7 +1,5 @@
 # JavaScript Basics
 
-[Back to the Challenge Map](README.md)
-
 A new language means a new environment. So far, you've been used to using IRB or Pry to try out small code experiments and load your own files. However, this week, the focus is on browser-based (also known as client-side) JavaScript, which means that you'll need to get familiar with some new tools.
 
 In this challenge, you will learn to interact with the JavaScript REPL, create a basic object with a method and write a simple function.
@@ -38,17 +36,3 @@ The JavaScript equivalent is the Console tab of the Chrome developer tools.  Whe
 - :pill: [JavaScript conventions](../pills/js_conventions.md)
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - :pill: [Three tier web architecture](/pills/three_tier_architecture.md)
-
-### [Walkthrough](walkthroughs/javascript_basics.md)
-
-[Next Challenge](./setting_up_jasmine.md)
-
-<!-- BEGIN GENERATED SECTION DO NOT EDIT -->
-
----
-
-**How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/javascript_basics.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/javascript_basics.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/javascript_basics.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/javascript_basics.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/javascript_basics.md&prefill_Sentiment=😀)  
-Click an emoji to tell us.
-
-<!-- END GENERATED SECTION DO NOT EDIT -->

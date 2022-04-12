@@ -1,7 +1,5 @@
 # FizzBuzz in JavaScript
 
-[Back to the Challenge Map](README.md)
-
 Now that we're set up with Jasmine, we can start writing code.
 
 In this challenge, you will test-drive FizzBuzz in JavaScript, using Jasmine.
@@ -29,17 +27,3 @@ In case you've forgotten the rules of FizzBuzz:
 - [Learn X in Y minutes - JavaScript](http://learnxinyminutes.com/docs/javascript/)
 - [A re-introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 - :pill: [JavaBuzz pill](/pills/javascript&JasminePill.md)
-
-### [Walkthrough](walkthroughs/fizzbuzz_in_javascript.md)
-
-[Next Challenge](./airport_challenge_js.md)
-
-<!-- BEGIN GENERATED SECTION DO NOT EDIT -->
-
----
-
-**How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/fizzbuzz_in_javascript.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/fizzbuzz_in_javascript.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/fizzbuzz_in_javascript.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/fizzbuzz_in_javascript.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/fizzbuzz_in_javascript.md&prefill_Sentiment=😀)  
-Click an emoji to tell us.
-
-<!-- END GENERATED SECTION DO NOT EDIT -->

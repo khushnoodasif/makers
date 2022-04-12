@@ -1,7 +1,5 @@
 # Setting up Jasmine
 
-[Back to the Challenge Map](README.md)
-
 To be able to TDD, we need a testing framework. [Jasmine](https://github.com/Jasmine/jasmine) is a JavaScript testing framework which conveniently has syntax that is extremely similar to RSpec.
 
 In this challenge, you will install Jasmine, set up a new project and try to find common ground between RSpec and Jasmine.
@@ -27,17 +25,3 @@ In this challenge, you will install Jasmine, set up a new project and try to fin
 - [Jasmine](https://github.com/jasmine/jasmine)
 - [Jasmine documentation](http://jasmine.github.io/2.3/introduction.html)
 - [A detailed breakdown of the &lt;script&gt; tag](http://www.sitepoint.com/a-detailed-breakdown-of-the-script-tag/)
-
-### [Walkthrough](walkthroughs/setting_up_jasmine.md)
-
-[Next Challenge](./fizzbuzz_in_javascript.md)
-
-<!-- BEGIN GENERATED SECTION DO NOT EDIT -->
-
----
-
-**How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/setting_up_jasmine.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/setting_up_jasmine.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/setting_up_jasmine.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/setting_up_jasmine.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/setting_up_jasmine.md&prefill_Sentiment=😀)  
-Click an emoji to tell us.
-
-<!-- END GENERATED SECTION DO NOT EDIT -->

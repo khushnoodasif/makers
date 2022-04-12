@@ -62,7 +62,7 @@ These exercises can be used for independent study, or enhanced by group discussi
 
 #### Pairing challenge
 
-[Thermostat](https://github.com/makersacademy/course/blob/main/thermostat_es6/README.md)
+[Thermostat](thermostat_es6)
 
 #### Individual challenge
 

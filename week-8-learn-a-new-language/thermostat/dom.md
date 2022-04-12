@@ -1,7 +1,5 @@
 # Thermostat: DOM
 
-[Back to the Challenge Map](README.md)
-
 Now, you are at the point which excites a lot of people, and is also JavaScript's unique superpower - dynamically changing content on a webpage. Using the browser DOM API, we can grab any element on the page, change its HTML and CSS, delete it, move it elsewhere, draw on the page, and many other fantastic things. Seeing as so far all user interaction you've done so far has been through the medium of forms and links, this will hopefully excite you.
 
 In this challenge, you will manipulate the Document Object Model (DOM) using JavaScript.
@@ -26,17 +24,3 @@ The first part of this challenge is intentionally left really open. When you fir
 ### Resources
 - [Short DOM JS tutorial](https://riptutorial.com/dom)
 - [The DOM API documentation on the Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-
-### [Walkthrough](walkthroughs/dom.md)
-
-[Next Challenge](./apis.md)
-
-<!-- BEGIN GENERATED SECTION DO NOT EDIT -->
-
----
-
-**How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/dom.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/dom.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/dom.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/dom.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=thermostat_es6/dom.md&prefill_Sentiment=😀)  
-Click an emoji to tell us.
-
-<!-- END GENERATED SECTION DO NOT EDIT -->
