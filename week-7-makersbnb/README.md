@@ -54,10 +54,12 @@ As facilitator, your most important job is to create and maintain a friendly spa
 
 How many of these can you tick off?
 
-   [ ] We all understand every ticket in the backlog\
-   [ ] We do not have to ask for clarity on tickets in the middle of a sprint\
-   [ ] All of our code is peer reviewed\
-   [ ] We are sharing knowledge within the team\
-   [ ] We all feel comfortable speaking openly in team retrospectives
+   [x] We all understand every ticket in the backlog\
+   [x] We do not have to ask for clarity on tickets in the middle of a sprint\
+   [x] All of our code is peer reviewed\
+   [x] We are sharing knowledge within the team\
+   [x] We all feel comfortable speaking openly in team retrospectives
 
-What would you add to the list?
+### Overview
+
+makersbnb[https://github.com/khushnoodasif/makersbnb]
