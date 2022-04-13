@@ -71,13 +71,13 @@ You'll then build the business logic to model a simple thermostat, and learn to 
 
 ## Challenges
 
-* [JavaScript Basics](javascript_basics.md)
-* [Setting up Jasmine](setting_up_jasmine.md)
-* [FizzBuzz in JavaScript](fizzbuzz_in_javascript.md)
-* [Airport in JavaScript](airport_challenge_js.md)
-* [Thermostat: business logic](thermostat_logic.md)
-* [Thermostat: interface](interface.md)
-* [Thermostat: The DOM](dom.md)
-* [Thermostat: APIs](apis.md)
-* [Thermostat: styling](styling.md)
-* [Thermostat: saving state](saving_state.md)
+* [JavaScript Basics](docs/javascript_basics.md)
+* [Setting up Jasmine](docs/setting_up_jasmine.md)
+* [FizzBuzz in JavaScript](docs/fizzbuzz_in_javascript.md)
+* [Airport in JavaScript](docs/airport_challenge_js.md)
+* [Thermostat: business logic](docs/thermostat_logic.md)
+* [Thermostat: interface](docs/interface.md)
+* [Thermostat: The DOM](docs/dom.md)
+* [Thermostat: APIs](docs/apis.md)
+* [Thermostat: styling](docs/styling.md)
+* [Thermostat: saving state](docs/saving_state.md)
