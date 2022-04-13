@@ -39,4 +39,12 @@ describe('Thermostat', () => {
       }
       expect(thermostat.getCurrentTemperature()).toEqual(10);
     })
+
+    it('has a power saving mode on by default', () => {
+      expect(thermostat.isPowerSaveModeOn()).toBe(true);
+    })
+
+    it('has a power saving mode off', () => {
+      expect(thermostat.isPowerSaveModeOff()).toBe(false);
+    })
 });
