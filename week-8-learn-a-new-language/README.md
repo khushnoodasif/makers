@@ -73,3 +73,5 @@ These exercises can be used for independent study, or enhanced by group discussi
    - STRETCH: Can you extend the challenge to include a simple user interface?
   
 ### Overview 
+
+Due to the fact that I wasn't feeling well, I didn't use a lot of the time I had to focus on this as it was only following written instructions.
