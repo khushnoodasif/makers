@@ -19,4 +19,4 @@
 - [Week 5: Container Orchestration](https://github.com/khushnoodasif/makers/tree/main/devops/week-5-kubernetes)
 - [Week 6: Security](https://github.com/khushnoodasif/makers/tree/main/devops/week-6-security)
 - [Weeks 7 and 8: Reliability](https://github.com/khushnoodasif/makers/tree/main/devops/week-7-and-8-reliability/)
-- [Week 9: DevOps Project](khushnoodasif/makers/tree/main/devops/week-9-devops-project)
+- [Week 9: DevOps Project](https://github.com/khushnoodasif/makers/tree/main/devops/week-9-devops-project)
