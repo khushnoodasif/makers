@@ -12,11 +12,11 @@
 
 # DevOps
 
-- [Week 1: Hello Cloud World!](https://github.com/khushnoodasif/makers/tree/main/hello-cloud-world/)
-- [Week 2: Serverless CI-CD](https://github.com/khushnoodasif/makers/tree/main/serverless-cicd/)
-- [Week 3: Acebook on AWS](https://github.com/khushnoodasif/makers/tree/main/acebook-on-aws/)
-- [Week 4: Terraform and Azure](https://github.com/khushnoodasif/makers/tree/main/terraform-and-azure/)
-- [Week 5: Container Orchestration](https://github.com/khushnoodasif/makers/tree/main/kubernetes)
-- [Week 6: Security](https://github.com/khushnoodasif/makers/tree/main/security)
-- [Weeks 7 and 8: Reliability](https://github.com/khushnoodasif/makers/tree/main/reliability/)
-- [Week 9: DevOps Project](khushnoodasif/makers/tree/main/devops-project)
+- [Week 1: Hello Cloud World!](https://github.com/khushnoodasif/makers/tree/main/week-1-hello-cloud-world/)
+- [Week 2: Serverless CI-CD](https://github.com/khushnoodasif/makers/tree/main/week-2-serverless-cicd/)
+- [Week 3: Acebook on AWS](https://github.com/khushnoodasif/makers/tree/main/week-3-acebook-on-aws/)
+- [Week 4: Terraform and Azure](https://github.com/khushnoodasif/makers/tree/main/week-4-terraform-and-azure/)
+- [Week 5: Container Orchestration](https://github.com/khushnoodasif/makers/tree/main/week-5-kubernetes)
+- [Week 6: Security](https://github.com/khushnoodasif/makers/tree/main/week-6-security)
+- [Weeks 7 and 8: Reliability](https://github.com/khushnoodasif/makers/tree/main/week-7-and-8-reliability/)
+- [Week 9: DevOps Project](khushnoodasif/makers/tree/main/week-9-devops-project)
